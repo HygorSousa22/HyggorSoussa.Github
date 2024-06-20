@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor Financeiro - Seu Nome</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 1em;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            padding: 2em;
+        }
+        .section {
+            margin-bottom: 2em;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        form input, form textarea {
+            margin-bottom: 1em;
+            padding: 0.5em;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        form input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        form input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gestor Financeiro - Seu Nome</h1>
+    </header>
+    <nav>
+        <a href="#sobre-mim">Sobre Mim</a>
+        <a href="#dicas">Dicas e Conselhos</a>
+        <a href="#cursos">Cursos e Workshops</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <div class="container">
+        <section id="sobre-mim" class="section">
+            <h2>Sobre Mim</h2>
+            <p>Olá! Sou gestor financeiro e atualmente estou cursando Ciências Contábeis. Tenho uma paixão por ajudar as pessoas a lidar melhor com seu dinheiro e alcançar suas metas financeiras. Com anos de experiência no setor financeiro, estou aqui para compartilhar meus conhecimentos e oferecer conselhos práticos para melhorar sua saúde financeira.</p>
+        </section>
+        <section id="dicas" class="section">
+            <h2>Dicas e Conselhos</h2>
+            <p>Aqui você encontrará artigos e dicas sobre como gerenciar seu dinheiro, construir metas financeiras e alcançá-las com sucesso. Fique atento para atualizações regulares!</p>
+        </section>
+        <section id="cursos" class="section">
+            <h2>Cursos e Workshops</h2>
+            <p>Participe de nossos cursos e workshops para aprender mais sobre gestão financeira. Oferecemos treinamentos práticos e detalhados que irão ajudá-lo a dominar suas finanças pessoais.</p>
+        </section>
+        <section id="depoimentos" class="section">
+            <h2>Depoimentos</h2>
+            <p>Confira o que as pessoas estão dizendo sobre nossos serviços e como nossos conselhos financeiros ajudaram a transformar suas vidas.</p>
+        </section>
+        <section id="contato" class="section">
+            <h2>Contato</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>© 2024 Seu Nome - Todos os direitos reservados</p>
+        <p><a href="https://www.linkedin.com/" target="_blank" style="color: white; text-decoration: none;">LinkedIn</a> | <a href="https://twitter.com/" target="_blank" style="color: white; text-decoration: none;">Twitter</a></p>
+    </footer>
+</body>
+</html>
